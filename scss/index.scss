@@ -1,0 +1,12 @@
+@import "./misc/variables.scss";
+@import "./misc/normalize.scss";
+
+
+@import "./partials/header";
+@import "./partials/footer.scss";
+
+@import "./views/about_us";
+@import "./views/contact_us";
+@import "./views/shop";
+@import "./views/trending";
+@import"./views/index";

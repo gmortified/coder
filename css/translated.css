@@ -1,0 +1,106 @@
+header {
+  background-color: #f0f06f;
+  border-radius: 22;
+  text-align: right;
+  border-radius: 200px;
+  border-style: outset; }
+
+footer {
+  background-color: #e0e8f5;
+  border-radius: 22; }
+
+.main_i h1 {
+  text-transform: uppercase;
+  word-spacing: 30px;
+  letter-spacing: 10px;
+  font-size: 60px;
+  line-height: 2px;
+  text-align: center;
+  color: blue; }
+
+.main_i h2 {
+  font-size: 48px;
+  text-align: center;
+  font-family: serif;
+  margin-top: 12px;
+  letter-spacing: 20px; }
+
+.main_i a {
+  color: firebrick;
+  text-align: center;
+  font-size: 20px; }
+
+.fg .tres transform:translateX(60px)
+img {
+  width: 398px;
+  height: 516px; }
+
+.fg p .truelov {
+  text-align: center;
+  color: olivedrab;
+  font-size: 20;
+  text-decoration: dotted; }
+
+.jv p {
+  font-size: 100px;
+  text-shadow: 8px;
+  text-shadow: darkolivegreen;
+  text-align: right; }
+
+.jv img {
+  width: 454px;
+  height: 603px; }
+
+.jv h4 {
+  width: 100;
+  height: 100;
+  float: right;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: 5px;
+  font-size: 90px;
+  color: greenyellow;
+  border-color: green;
+  border-style: solid; }
+
+.jv h5 {
+  width: 100;
+  height: 100;
+  float: right;
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 200px;
+  margin-bottom: 5px;
+  font-size: 90px;
+  color: greenyellow;
+  border-color: green;
+  border-style: solid; }
+
+h3 {
+  color: crimson;
+  font-style: oblique;
+  font-size: 42px; }
+  h3:hover {
+    font-size: 50px; }
+
+.zapas {
+  align-content: center;
+  width: 90%;
+  height: 40vw;
+  transform: translateX(60px); }
+
+.bae {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
+
+.snoopy {
+  margin-right: 80px;
+  margin-left: 80px; }
+
+.vestido {
+  margin-right: 80px;
+  margin-left: 80px; }
+
+.remeraseles {
+  margin-right: 80px;
+  margin-left: 80px; }

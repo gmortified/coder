@@ -1,104 +1,10 @@
-.tituloprin {
-    color: blue;
-}
-header {
-    background-color: rgb(240, 240, 111); border-radius:22;
-}
 
-h3 {
-    color: crimson;
-    font-style: oblique;
-    font-size: 42px ;
-}
-.container {
-    flex: content;
-}
-
-.tres {
-    display: flex;
-    flex-direction: row;
-}
-.snoopy {
-    margin-right: 80px;
-    margin-left: 80px;
-}
-
-.vestido{
-    margin-right: 80px;
-        margin-left: 80px;
-}
-.remeraseles {
-    margin-right: 80px;
-        margin-left: 80px;
-}
-.truelov {
-    text-align: center;
-    color: olivedrab;
-    font-size: 70;
-    text-decoration: dotted;
-}
-.zapas {
-   align-content: center;
-}
-.tituloprin {
-   text-align: center;
-}
-.sub {
-    text-align: center;
-    margin-top: 12px;
-
-}
-h4 { 
-    width: 100;
-    height: 100;
-    float: right;
-    text-align: right;
-    margin-right:100px;
-    margin-top: 200px;
-   margin-bottom: 5px;
-    font-size: 90px;
-    color: greenyellow;
-    border-color: green;
-    border-style: solid;
-}
 .see {
     text-align: center;
 }
 
-h5 {
-    width: 100;
-    height: 100;
-    float: right;
-    text-align: right;
-    margin-right:100px;
-    margin-top: 200px;
-   margin-bottom: 5px;
-   font-size: 90px;
-   color: greenyellow;
-   border-style: solid;
-   border-color: green;
-}
-header {
-    text-align: right;
-    border-radius:200px;
-    border-style: outset;
-}
-all {
-    background-color: rgb(240, 200, 148);
-}
-.tituloprin {
-    text-transform: uppercase;
-    word-spacing: 30px;
-    letter-spacing: 10px;
-    font-size: 60px;
-    line-height: 2px;
-}
-.sub {
-    letter-spacing: 20px;
-}
-footer {
-    background-color: rgb(224, 232, 245); border-radius:22;
-}
+
+
 .he{
     background-color: rgb(240, 240, 111); border-radius:22;
     text-align: right;
@@ -257,18 +163,8 @@ nv {
      font-size: 10px;
      width: fit-content;
     }
-    .truelov { font-size: 20px;}
- 
-}
-.zapas {
-    transform: translateX(60px);
-}
-.tres {
-    transform:translateX(60px) ;
-}
-.bae {
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-}
+ }
+
 
 @media all and (min-width: 320px) {
     .zapas {
@@ -281,9 +177,9 @@ nv {
   }
   @media all and (min-width: 1024px) {
     .zapas { width: 1350px; height: 500px;}
-    .snoopy {width: 398px; height:516px;}
-    .vestido { width: 398px; height:516px;}
-    .remeraseles {width: 398px; height:516px;}
+    .snoopy {width: 274px; height: 355px;}
+    .vestido { width: 274px; height: 355px;}
+    .remeraseles {width: 274px; height: 355px;}
     }
      .yuo { font-size: 3.4rem; }
      @media only screen and (max-width: 960px) { h1 { font-size: 5.66666667vw; } }
