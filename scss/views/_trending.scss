@@ -1,0 +1,30 @@
+
+  
+ $colors: (
+	"primary": #E32081,
+	"secondary": #FF7733,
+	"text": #73E2A7
+)
+
+
+color: color("text");
+
+  @each $key, $value in $colors {
+  .color-#{$key}{ color: #{$value}; }
+  .bg-#{$key}{ background-color: #{$value}; }
+}
+@function color($search) {
+    @return map-get($colors, $search);
+  }
+@mixin flex-rw {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ho {
+  @include flex-rw
+}
