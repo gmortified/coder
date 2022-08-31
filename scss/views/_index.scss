@@ -4,13 +4,14 @@
             text-transform: uppercase;
             word-spacing: 30px;
             letter-spacing: 10px;
-            font-size: 60px;
+            font-size: 6vw;
+            font-weight: 900;
             line-height: 2px;
         text-align: center;
         color: blue;
     }
     h2 {
-        font-size: 48px;
+        font-size: 4vw;
         text-align: center;
         font-family:serif ;
         margin-top: 12px;
@@ -85,12 +86,42 @@ height: 40vw;
 .bae {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-.snoopy {
-    margin-right: 80px;
-    margin-left: 80px;}
-.vestido {
-   margin-right: 80px;
-   margin-left: 80px;}
-.remeraseles { 
-    margin-right: 80px;
-  margin-left: 80px;}
+
+.tres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+  
+  .mushu {
+    padding-right: 20px;
+    padding-left: 200px;
+    
+}
+.self {
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+    @media all and (min-width: 320px) {
+        .zapas {
+            width: 90%; height: 20%;
+        }
+       
+        .snoopy { width: 136px; height: 168px;}
+        .vestido { width: 136px; height: 168px;}
+        .remeraseles { width: 136px; height: 168px;}
+      }
+        @media all and (min-width: 1024px) {
+        
+    .zapas { width: 90%; height: 20%;}
+    .snoopy {width: 274px; height: 355px;}
+    .vestido { width: 274px; height: 355px;}
+    .remeraseles {width: 274px; height: 355px;}
+    }
+      
+   

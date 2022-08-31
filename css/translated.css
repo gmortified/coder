@@ -9,17 +9,124 @@ footer {
   background-color: #e0e8f5;
   border-radius: 22; }
 
+.buo {
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); }
+
+.about {
+  font-size: 128px;
+  text-align: center;
+  margin-top: 200px; }
+
+.free {
+  font-size: 2em;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 250px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.ttt {
+  font-size: 15vw;
+  font-weight: 900; }
+
+.four {
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); }
+  .four .cont {
+    color: #33172f;
+    text-align: center;
+    font-size: 3.4rem; }
+    @media only screen and (max-width: 960px) {
+      .four .cont h1 {
+        font-size: 5.66666667vw; } }
+    @media only screen and (max-width: 564.70588px) {
+      .four .cont h1 {
+        font-size: 2rem; } }
+  .four .hi {
+    margin-bottom: 500px;
+    text-align: center;
+    margin-top: 100px; }
+
+.shus {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+  .shus .yuo {
+    color: darkseagreen;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 900; }
+  .shus .grid-gallery {
+    display: grid;
+    grid-auto-rows: 200px;
+    gap: 1rem;
+    grid-auto-flow: row dense; }
+  @media all and (min-width: 768px) {
+    .shus .grid-gallery {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media all and (min-width: 1024px) {
+    .shus .grid-gallery {
+      grid-template-columns: repeat(6, 1fr); } }
+  .shus .grid-gallery__item:nth-child(11n+1) {
+    grid-column: span 1; }
+  .shus .grid-gallery__item:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1; }
+  .shus .grid-gallery__item:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1; }
+  .shus .grid-gallery__item:nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2; }
+  .shus .grid-gallery__item:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2; }
+  .shus .grid-gallery__item:nth-child(11n+9) {
+    grid-row: span 3; }
+  .shus .grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.ho {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 80%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.klas {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
+  .klas .sale {
+    /*titulo*/
+    color: #ff0055;
+    font-size: 6vw;
+    font-weight: 700;
+    word-spacing: 15px;
+    text-align: center;
+    letter-spacing: 40px;
+    line-height: 10px; }
+
+.self {
+  font-size: 4vw; }
+
+@media all and (min-width: 320px) {
+  .sale {
+    letter-spacing: 5px;
+    font-size: 20px; } }
+
 .main_i h1 {
   text-transform: uppercase;
   word-spacing: 30px;
   letter-spacing: 10px;
-  font-size: 60px;
+  font-size: 6vw;
+  font-weight: 900;
   line-height: 2px;
   text-align: center;
   color: blue; }
 
 .main_i h2 {
-  font-size: 48px;
+  font-size: 4vw;
   text-align: center;
   font-family: serif;
   margin-top: 12px;
@@ -30,8 +137,7 @@ footer {
   text-align: center;
   font-size: 20px; }
 
-.fg .tres transform:translateX(60px)
-img {
+.fg .tres transform:translateX(60px) img {
   width: 398px;
   height: 516px; }
 
@@ -51,20 +157,7 @@ img {
   width: 454px;
   height: 603px; }
 
-.jv h4 {
-  width: 100;
-  height: 100;
-  float: right;
-  text-align: right;
-  margin-right: 100px;
-  margin-top: 200px;
-  margin-bottom: 5px;
-  font-size: 90px;
-  color: greenyellow;
-  border-color: green;
-  border-style: solid; }
-
-.jv h5 {
+.jv .tay, .jv h5 {
   width: 100;
   height: 100;
   float: right;
@@ -93,14 +186,59 @@ h3 {
 .bae {
   background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); }
 
-.snoopy {
-  margin-right: 80px;
-  margin-left: 80px; }
+.tres {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around; }
 
-.vestido {
-  margin-right: 80px;
-  margin-left: 80px; }
+.mushu {
+  padding-right: 20px;
+  padding-left: 200px; }
 
-.remeraseles {
-  margin-right: 80px;
-  margin-left: 80px; }
+.self {
+  font-size: 20px;
+  color: green;
+  text-align: center;
+  margin-top: 0px; }
+
+@media all and (min-width: 320px) {
+  .zapas {
+    width: 90%;
+    height: 20%; }
+  .snoopy {
+    width: 136px;
+    height: 168px; }
+  .vestido {
+    width: 136px;
+    height: 168px; }
+  .remeraseles {
+    width: 136px;
+    height: 168px; } }
+
+@media all and (min-width: 1024px) {
+  .zapas {
+    width: 90%;
+    height: 20%; }
+  .snoopy {
+    width: 274px;
+    height: 355px; }
+  .vestido {
+    width: 274px;
+    height: 355px; }
+  .remeraseles {
+    width: 274px;
+    height: 355px; } }
+
+.see {
+  text-align: center; }
+
+@media (max-width: 540px) {
+  .tituloprin {
+    font-size: 20px; }
+  header {
+    font-size: 10px;
+    width: fit-content; } }
+
+.yuo {
+  font-size: 3.4rem; }

@@ -10,3 +10,31 @@
 @import "./views/shop";
 @import "./views/trending";
 @import"./views/index";
+.see {
+    text-align: center;
+}
+
+  
+$colors: (
+	"primary": #E32081,
+	"secondary": #FF7733,
+	"text": #73E2A7
+)
+
+
+color color ("primary");
+
+@media (max-width:540px) {
+  .tituloprin { font-size: 20px;}
+  header {
+   font-size: 10px;
+   width: fit-content;
+  }
+}
+
+
+
+   .yuo { font-size: 3.4rem; }
+
+   
+   

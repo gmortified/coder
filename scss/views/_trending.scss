@@ -1,24 +1,11 @@
 
-  
- $colors: (
-	"primary": #E32081,
-	"secondary": #FF7733,
-	"text": #73E2A7
-)
-
-
-color: color("text");
-
-  @each $key, $value in $colors {
-  .color-#{$key}{ color: #{$value}; }
-  .bg-#{$key}{ background-color: #{$value}; }
-}
 @function color($search) {
     @return map-get($colors, $search);
   }
 @mixin flex-rw {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: left;
   width: 80%;
   max-width: 1200px;
@@ -28,3 +15,26 @@ color: color("text");
 .ho {
   @include flex-rw
 }
+  
+ .klas { 
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+     .sale{ /*titulo*/
+    color: rgb(255, 0, 85);
+    font-size: 6vw;
+	font-weight: 700;
+    word-spacing: 15px;
+    text-align: center;
+    letter-spacing: 40px;
+    line-height: 10px;
+  }
+  
+}
+
+.self {
+  font-size: 4vw;
+}
+
+@media all and (min-width: 320px) { 
+  .sale {letter-spacing: 5px;
+  font-size: 20px; }
+   }
